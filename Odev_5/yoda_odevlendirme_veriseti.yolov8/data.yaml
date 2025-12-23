@@ -1,0 +1,13 @@
+train: C:/Users/aydin/Desktop/Yazılım/Git/Aydin_Alizade_YODA_IHA_YAZILIM/Odev_5/yoda_odevlendirme_veriseti.yolov8/train/images
+val: C:/Users/aydin/Desktop/Yazılım/Git/Aydin_Alizade_YODA_IHA_YAZILIM/Odev_5/yoda_odevlendirme_veriseti.yolov8/valid/images
+test: C:/Users/aydin/Desktop/Yazılım/Git/Aydin_Alizade_YODA_IHA_YAZILIM/Odev_5/yoda_odevlendirme_veriseti.yolov8/test/images
+
+nc: 4
+names: ['blue_hexagon', 'blue_square', 'red_square', 'red_triangle']
+
+roboflow:
+  workspace: shapeandcolordetection
+  project: shapeandcolor-ekw0q
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/shapeandcolordetection/shapeandcolor-ekw0q/dataset/7
